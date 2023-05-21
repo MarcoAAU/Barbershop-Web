@@ -1,0 +1,447 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@400&display=swap');
+
+header{
+    background-color: #bbbbbb;
+    padding: 20px 0;
+}
+
+body {
+    font-family: 'Catamaran', sans-serif;
+}
+
+.caja {
+    width: 95%;
+    position: relative;
+    margin: 0 auto;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: black;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: #F2F2F2;
+    text-decoration: underline;
+}
+
+.productosMain{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.tarjetas{
+    display: flex;
+    margin: 0 0 0 15px;
+    width: 275px;
+    height: 350px;
+    border: 3px solid black;
+    border-radius: 5%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.tarjetas:hover {
+    border-color: #93BBBF;
+}
+
+.tarjetas:active {
+    border-color: #143959;
+}
+.nombreProducto{
+    color: black;
+    font-weight: bold;
+    font-size: 21px;
+}
+
+.tarjetas:hover h2 {
+    font-size: 24px;
+}
+
+.descripcionProductos {
+    text-align: center;
+}
+
+.precioProducto {
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+footer {
+    text-align: center;
+    background: url(Assest/imagenes/bg.jpg);
+    padding: 20px 0 20px 0;
+
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 10px;
+}
+
+.formularioMain {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 30px;
+}
+
+.formulario label, form .parrafo{
+    display: block;
+    font-size: 20px;
+    margin: 0 0 10px;
+}
+
+.input-padron {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 10px;
+    width: 50%;
+}
+
+.formulario .radiofieldset {
+    margin: 20px 0;
+}
+
+.formulario .radiofieldset label{
+    cursor: pointer;
+    width: 20%;
+}
+
+.formulario .checkbox{
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+thead {
+    background: #394867;
+    color: #ffffff;
+    font-weight: bold;
+} td, th {
+    border: 1px solid #000000;
+    padding: 5px 10px;
+}
+
+.formulario .tablaHorario{
+    margin: 0 55px;
+}
+
+.formulario .select{
+    margin: 30px 0;
+    font-size: 18px;
+}
+
+.formulario .horario:hover{
+    background: #F1F6F9;
+    border-color: #93BBBF;
+}
+
+.formulario .horario {
+    width: 20%;
+    padding: 5px 0;
+    font-size: 15px;
+    text-align: center;
+    border-radius: 10px;
+    margin: 0 0 0 55px;
+}
+
+.formulario .enviar {
+    width: 20%;
+    padding: 10px 0;
+    margin: 0 55px;
+    font-size: 15px;
+    font-weight: bold;
+    color: white;
+    background: #394867;
+    border-radius: 10px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.formulario .enviar:hover {
+    background: #212A3E;
+    transform: scale(1.1) rotate(1deg);
+}
+
+.formulario input:hover {
+    border-color: #93BBBF;
+}
+
+.formulario textarea:hover {
+    border-color: #93BBBF;
+}
+
+/* CSS HOME */
+
+.banner {
+    width: 60%;
+    margin: 0 20%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0.5em 0 1em;
+    clear: left;
+}
+
+.principal {
+    width: 60%;    
+    padding: 1em 0;
+    margin: auto;                                                       
+} .principal p {
+    margin: 1em;
+    text-align: center;
+} strong {
+    font-weight: bold;
+    color: #143959;
+} em {
+    font-style: italic;
+} 
+
+.diferenciales {
+    background: #fefefe;
+    padding: 1em 0;
+    width: 100%;
+    margin: auto;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    background: linear-gradient(#fefefe, #888888); 
+}
+
+.bloque-diferenciales {
+    display: flex;
+    width: 60%;
+    justify-content: center;
+}
+
+.contenido-diferenciales {
+    width: 45%;
+}
+
+.lista-diferenciales{
+    width: 100%;
+    display: inline-block;
+    vertical-align: top;
+} .items {
+    line-height: 1.5;
+} .items:nth-child(1){
+    font-weight: bold;
+}
+
+.imagen-diferenciales{
+    width: 100%;  
+    box-shadow: #143959 5px 5px 5px;  
+    transition: 400ms ease-in-out;
+}
+
+.imagen-diferenciales:hover{
+    scale: 1.1;
+    opacity: 80%;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 10px;
+}
+
+.mapa {
+    padding: 3em 0;
+    background: #888888;
+    
+} .mapa p {
+    font-size: 1.25em;
+    text-align: center;
+    padding: 0 0 2em 0;
+}
+
+.mapa .ubicacion {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.video {
+    width: 100%;
+    margin: 0 auto;
+    padding: 5em 0;
+    text-align: center;
+    background: linear-gradient(#888888, #fefefe)
+}
+
+.video iframe {
+    width: 600px;
+    height: 350px;
+}
+
+@media screen and (max-width: 520px) {
+    
+    h1 img {
+        width: 30%;
+        margin-left: 50px;
+    }
+    .caja {
+        width: 100%;
+    }
+
+    nav {
+        position: absolute;
+        top: 22px;
+        right: 50px;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    nav li {
+        padding: 0.5em 0;
+    }
+
+    .banner {
+        width: 90%;
+        margin: 0 5%;
+    }
+
+    .principal {
+        width: 100%;
+    }
+    
+    .principal p{
+        text-align: justify;
+    }
+
+    .bloque-diferenciales {
+        width: 100%;
+    }
+
+    .productosMain {
+        display: flex;
+        justify-content: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .video iframe {
+        width: 100%;
+    }
+
+    .tarjetas {
+        margin: 15px 0 15px;
+    }
+
+    .input-padron {
+        width: 92%;
+    }
+
+    .formularioMain {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .formulario .select {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .formulario .horario {
+        width: 50%;
+        margin: 15px 0 0 55px;
+    }
+
+    .formulario .checkbox {
+        overflow-wrap: break-word;
+        inline-size: 305px;
+    }
+
+    .formulario .radiofieldset label {
+        width: 50%;
+    }
+
+    .formulario .enviar {
+        width: 50%;
+    }
+}
+
+
+/* CSS poster de mario */
+article {
+    position: relative;
+    width: 250;
+    transition: all .3s ease;
+}
+article img:first-child {
+    box-shadow: 0 60px 60px rgba(0, 30, 255, 0.5);
+    border-radius: 4px;
+    object-fit: cover;
+    width: 60%;
+    margin: 0 20%;
+}
+article img:last-child {
+    position: absolute;
+    width: 30%;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 40%;
+    transform: translateY(50%);
+    transition: .3s ease;
+    opacity: 0;
+}
+article:hover {
+     transform: 
+     perspective(250px)
+     rotateX(10deg)
+     translateY(-10%)
+     translateY(0);
+}
+article::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(
+        to bottom, 
+        transparent 10%,
+        rgba(0, 0, 0, 0.5) 50%,
+        rgba(0, 0, 0,) 95%
+     );
+    opacity: 0;
+    transition: .3s ease;
+}
+article:hover::before {
+    opacity: 1;
+}
+article:hover img:last-child {
+    opacity: 1;
+    transform: translateY(70%);
+}
+
